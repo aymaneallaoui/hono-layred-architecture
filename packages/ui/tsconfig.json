@@ -1,0 +1,12 @@
+{
+  "extends": "@repo/tsconfig/react.json",
+  "compilerOptions": {
+    "types": ["react", "react-dom"],
+    "baseUrl": ".",
+    "paths": {
+      "@repo/ui/*": ["./src/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}

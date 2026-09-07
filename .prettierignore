@@ -1,0 +1,17 @@
+# Build outputs & deps
+node_modules
+dist
+build
+.turbo
+coverage
+
+# Lockfiles
+bun.lock
+bun.lockb
+
+# Generated
+apps/web/src/routeTree.gen.ts
+
+# Playwright
+apps/e2e/playwright-report
+apps/e2e/test-results
